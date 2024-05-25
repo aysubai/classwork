@@ -58,7 +58,9 @@ console.log(students.map((student,index) => index ));
 console.log(students.map((item,index) => 'name:' + index %2==0));
 console.log(students.map((student) => student.age += student.age));
 
-console.log(students.map((item,index) => 'sum:'+ index ));
+let sum = 0
+console.log(students.map((_,index) => sum += index ));
+console.log(sum);
 
 
 
