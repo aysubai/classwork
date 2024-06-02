@@ -18,6 +18,10 @@ button {
     font-style: italic;
     
 }
+button:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}
 
 h1 {
     display: flex;
@@ -30,8 +34,4 @@ h1 {
 img {
     width: 300px;
     height: 200px;
-}
-
-.chc {
-   
 }
